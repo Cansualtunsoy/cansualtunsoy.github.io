@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS Konu Anlatımı</title>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="menu-wrapper">
+  <div class="menu">
+    <ul>
+               <li><a href="../index.html">Anasayfa</a></li>
+      <li><a href="../view/css.html"class="active" >CSS</a></li>
+      <li><a href="../view/a.html" >Hakkımda</a></li>
+     
+    </ul>
+
+</div>
+<!--- menu-wrapper div end -->
+<div class="clearing"></div>
+<div class="border-bottom"></div>
+<div class="logo-wrapper">
+  <div class="leftshadow"></div>
+  <div class="logo">
+    <h1>Cascading Style Sheet.</h1>
+  </div>
+  <div class="rightshadow"><img src="../images/logo-wrap-right.jpg" /></div>
+</div>
+<div class="clearing"></div>
+<!--- banner wrapper div end -->
+<div class="container">
+  <div class="panel-wrapper">
+    <div class="left-colum">
+      <div class="panel">
+        <div class="title">
+          <h2> </h2>
+        </div>
+        <div class="content">
+          <p>CSS</p>
+          <div class="right-panel">
+            <ul>
+              <li><a href="../view/cssGiris.html">CSS Nedir</a></li>
+              <li><a href="../view/cssYapisi.html">CSS Yapısı </a></li>
+              <li><a href="../view/cssYazilimKurallari.html">CSS Yazım Kuralları</a></li>
+               <li><a href="../view/cssZeminRengi.html">CSS Zemin Özellikleri</a></li>
+              <li><a href="../view/cssMetinİslemleri.html">CSS Metin İşlemleri</a></li>
+                    <li><a href="../view/cssKutumodeli.html">CSS Kutu Modeli</a></li>
+                    
+              <li><a href="../view/cssListesi.html">CSS Listesi</a></li>
+              <li><a href="../view/cssYazitipi.html">CSS Yazitipi Özellikleri</a></li>
+             <li><a href="../view/css.html">CSS Yükseklik-Genişlik</a></li>
+                             <li><a href="../view/cssMargin.html">CSS Dıştan Boşluk (Margin)</a></li>
+               <li><a href="../view/cssPadding.html">CSS Içten Boşluk (Padding)</a></li>
+               
+              <li class="borderNone"><a href="../view/cssÖzellik.html">CSS Özellik Seçimi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-colum">
+      <div class="title">
+      
+
+        <h1>CSS Yazitipi Özellikleri</h1>
+      </div>
+      <div class="content1">
+     <p>&nbsp;</p>
+         <h4>CSS yazıtipi (font) özellikleri, yazıtipi ailesini, boyutu, kalın/italik olup olmama durumunu ve metnin biçemini (stil) tanımlamak için kullanılır.</h4>
+        
+         <h5>*Yazıtipi aileleri*</h5>
+         <h3>CSS'de, yazıtipi aileleri iki temel gruba ayrılır:</h3>
+         <h3> 1.Jenerik aile (generic family): Benzer görünüşteki yazıtipi ailesi (&quot;Serif&quot; ile &quot;Monospace&quot; gibi).</h3>
+           <h3>2.Yazıtipi ailesi (font family): Spesifik bir yazıtipi ailesi (&quot;Times New Roman&quot; veya &quot;Courier&quot; gibi).</h3>
+           <table>
+            <tr>
+                <th width="199"><strong><h6>Jenerik aile</h6></strong></th>
+                <th width="509"><strong><h6>Yazıtipi ailesi</h6></strong></th>
+                <th width="509"><strong><h6>Açıklama</h6></strong></th>
+            </tr>
+            <tr>
+                <td height="26"><h6>Serif</h6></td>
+                <td><h6>Times New Roman
+                Georgia</h6></td>
+              <td><h6>Serifli yazıtipleri karakterlerin sonunda yer alan küçük çizgi ve kuyruklarla sonlanır.</h6></td>
+            </tr>
+            <tr>
+                <td height="48"><h6>Sans-serif</h6></td>
+                <td><h6>Arial
+                Verdana</h6></td>
+                <td><h6>&quot;Sans&quot; Fransızca bir sözcük olup &quot;olmaksızın&quot; anlamına gelir. Bu aile karakter sonlarında çizgiler ve kuyruklar içermez.</h6></td>
+            </tr>
+             <tr>
+                <td height="27"><h6>Monospace</h6></td>
+                <td><h6>Courier New
+                Lucida Console</h6></td>
+                <td><h6>Tüm monospace karakterler aynı genişliktedir.</h6></td>
+            </tr>
+         
+        </table>
+          <h5>Yazıtipi stili</h5>
+          <h3>Bir metnin yazıtipi ailesi, font-family özelliğiyle atanır. font-family özelliği, çeşitli yazıtipi adlarını bir yedek sistem gibi tutmalıdır. Tarayıcı ilk yazıtipini desteklemiyorsa bir sonraki yazıtipi (font) devreye sokulmalıdır. Yazıtipi ailesi birden fazla sözcükten oluşuyorsa çift tırnak sembolleri arasına alabilirsiniz.</h3>
+           <h3>Birden fazla yazıtipi ailesi varsa, virgüllerle ayrılmalıdır:          </h3>
+          <div><img src="../images/16.png" /></div>
+           <p>&nbsp;</p>
+           <h5>Yazıtipi boyutu</h5>
+           <h3>Font-size özelliği, metnin harf boyutunu belirler. Bir sayfa içindeki &lt;p&gt; elemanlarını font-size ile &lt;h&gt; elemanlarına dönüştürmeyiniz ya da tersini yapmayınız. Başlıklar için daima HTML &lt;h1&gt;...&lt;h6&gt; etiketlerini, paragraflar içinse &lt;p&gt; etiketlerini kullanınız.Font-size, mutlak (absolute) ya da göreceli (relative) olabilir.</h3>
+           <h3>Mutlak boyut:</h3>
+           <ul>
+           <h3><li>1.Metni belirtilen boyuta dönüştürür.</li>
+             <li>2.Kullanıcının metnin boyutunu her tarayıcıda değiştirilmesine izin vermez.</li>
+             <li>3.Çıktının fiziksel boyutu biliniyorsa faydalıdır.</li>
+         </h3>
+           <h3>Göreceli boyut:</h3>
+          </ul>
+           <ul><h3>
+             <li>1.İlgili elemanların boyutunu mutlak olarak değil göreceli olarak belirler.</li>
+             <li>2.Kullanıcıya, tarayıcılarda metnin boyutunu değiştirmesi için izin verir.</li>
+             </h3>
+             <h5>Yazıtipi boyutunu piksel cinsinden atamak</h5>
+             <h3> Metin boyutunu piksel (px) cinsinden atarsanız, metin boyutu üzerinde tam kontrol sağlayabilirsiniz.</h3>
+             <h5>Yazıtipi boyutunu em birimi kullanarak atamak</h5>
+             <h3>Kullanıcıların, kullandıkları tarayıcının menüsünden metni yeniden boyutlandırabilmelerine (resize) olanak sağlamak amacıyla, birçok yazılım geliştirici piksel yerine em birimini kullanmayı tercih eder. em boyut birimi, <a href="http://tr.wikipedia.org/wiki/World_Wide_Web_Consortium">W3C</a> tarafından da önerilmektedir. Tarayıcılarda varsayılan metin boyutu 16px'tir. Buna göre, 1 em=16px olarak kullanılır.          </h3>
+          </ul>
+           <table>
+            <tr>
+                <th width="172"><h6>Özellik</h6></th>
+                <th width="536"><h6>Açıklama<h6></th>
+            </tr>
+            <tr>
+                <td height="26"><h6>font</h6></td>
+              <td><h6>Tek bir bildirimde tüm yazıtipi özelliklerinin atanmasını sağlar.</h6></td>
+            </tr>
+            <tr>
+                <td height="48"><h6>font-family</h6></td>
+                <td><h6>Bir metin için yazıtipi ailesini belirler.</h6></td>
+            </tr>
+             <tr>
+                <td height="27"><h6>font-size</h6></td>
+                <td><h6>Metnin yazıtipi boyutunu belirler.</h6></td>
+            </tr>
+             <tr>
+                <td height="30"><h6>font-style</h6></td>
+                <td><h6>Metin için yazıtipi stilini belirler.</h6></td>
+            </tr>      
+                         <tr>
+                <td height="30"><h6>font-variant</h6></td>
+                <td><h6>Bir metnin küçük veya büyük harflerle görüntüleneceğini belirler.</h6></td>
+            </tr>  
+                         <tr>
+                <td height="30"><h6>font-weight</h6></td>
+                <td><h6>Yazıtipinin ağırlığını belirler.</h6></td>
+            </tr>     
+        </table>
+        <p>&nbsp;</p>
+      </div>
+      </div>
+    </div>
+    <div class="clearing"></div>
+  </div>
+  <!--- panel wrapper div end -->
+</div>
+<!--- container div end -->
+<div class="clearing"></div>
+</body>
+</html>
